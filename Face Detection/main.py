@@ -194,8 +194,6 @@ def main(args):
                     print('Couldn\'t find a face')
                 
                 if find_match is True:
-                    break
-                
                 end = time.time()
 
                 seconds = end - start
